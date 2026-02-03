@@ -14,9 +14,9 @@ const (
 	LoginURL = "http://192.168.3.1/ac_portal/login.php"
 	CheckURL = "https://www.baidu.com"
 	
-	UserName = "321081119"
+	UserName = "账号"
 	
-	// 之前抓包成功的固定凭证 (不要改)
+	// 之前抓包成功的固定凭证 (不要改)，readme.md上有方法
 	FixedPwd     = "e0f67a0ec942"
 	FixedAuthTag = "1770107462614"
 )
@@ -105,4 +105,5 @@ func main() {
 		}
 		// 如果 CheckNetwork 返回 true，这里什么都不做，直接跳过，等待下一个 10 分钟
 	}
+
 }
